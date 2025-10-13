@@ -1,0 +1,9 @@
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+# SwiftPM
+.build/
+# Archives
+*.xcarchive
