@@ -1,9 +1,27 @@
-# Xcode
+# === Xcode build artifacts ===
 build/
 DerivedData/
-*.xcuserstate
-*.xcworkspace/xcuserdata/
-# SwiftPM
-.build/
-# Archives
 *.xcarchive
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# === Xcode user state（個人UI與暫存，不要同步）===
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+*.xcscmblueprint
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcworkspace/xcuserdata/
+
+# === Swift Package Manager ===
+.build/
+.swiftpm/xcode/package.xcworkspace/xcuserdata/
+
+# === （若有用才會生）CocoaPods / Carthage ===
+Pods/
+Carthage/Build/
+
+# === macOS 雜項 ===
+.DS_Store
